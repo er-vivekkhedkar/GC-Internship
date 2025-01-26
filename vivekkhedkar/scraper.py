@@ -103,7 +103,6 @@ class GoogleScraper:
         except Exception as e:
             print(f"[ERROR]: Failed to save results to CSV: {e}")
 
-
 if __name__ == "__main__":
     search_query = input("Enter search query: ").strip()
     try:
@@ -118,3 +117,6 @@ if __name__ == "__main__":
     # Perform scraping and save the results
     scraper.scrape()
     scraper.save_to_csv("google_search_results.csv")
+
+
+    # contact 9511210785
